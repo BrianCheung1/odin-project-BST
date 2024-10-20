@@ -218,7 +218,6 @@ function generateRandomNumbers(size) {
     return numbers;
 }
 
-// Function to drive the whole script
 function driverScript() {
     // Create a tree from random numbers
     const randomNumbers = generateRandomNumbers(3);
