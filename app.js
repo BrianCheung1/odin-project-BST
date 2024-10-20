@@ -265,6 +265,8 @@ function driverScript() {
 
     console.log("Post Order after rebalancing:");
     tree.postOrder(tree.root, printNode);
+
+    prettyPrint(tree.root)
 }
 
 // Run the driver script
